@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="download_file">Download File</string>
+    <string name="file_download_demo_from_coderzheaven_n_nfile_to_download_http_coderzheaven_com_sample_folder_sample_file_png_n_nsaved_path_sdcard_n">File Download Demo from Coderzheaven \\n\\nFile to download : http://coderzheaven.com/sample_folder/sample_file.png \\n\\nSaved Path : sdcard/\\n</string>
+    <string name="file_file_to_download_http_coderzheaven_com_sample_folder_sample_file_png">file file_to_download_http_coderzheaven_com_sample_folder_sample_file_png</string>
+    <string name="download">Download</string>
+    <string name="title_activity_download_file">DownloadFile</string>
+    <string name="downloading_file">Downloading file</string>
+
+</resources>
