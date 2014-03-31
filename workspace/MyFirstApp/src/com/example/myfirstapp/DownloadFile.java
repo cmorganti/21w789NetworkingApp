@@ -117,7 +117,7 @@ public class DownloadFile extends ActionBarActivity {
             // get download service and enqueue file
             DownloadManager manager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
             long managerID = manager.enqueue(request);
-            DownloadTimer dt = new DownloadTimer(5, managerID, manager);
+      //      DownloadTimer dt = new DownloadTimer(5, managerID, manager);
 
             }
         }

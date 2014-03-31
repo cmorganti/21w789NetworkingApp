@@ -35,6 +35,34 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.myfirstapp.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.myfirstapp.DownloadService"
+            android:label="@string/title_activity_download_service"
+            android:parentActivityName="com.example.myfirstapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
+
+        <service
+            android:name="com.example.myfirstapp.DownloadService"
+            android:exported="false" >
+        </service>
+
+        <receiver
+            android:name="com.example.myfirstapp.MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+
+        <activity
+            android:name="com.example.myfirstapp.DownloadNewFile"
+            android:label="@string/title_activity_download_new_file"
+            android:parentActivityName="com.example.myfirstapp.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

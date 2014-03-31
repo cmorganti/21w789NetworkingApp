@@ -1098,14 +1098,20 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int activity_download_file=0x7f030017;
-        public static final int activity_main=0x7f030018;
-        public static final int fragment_download_file=0x7f030019;
-        public static final int fragment_main=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_download_new_file=0x7f030018;
+        public static final int activity_download_service=0x7f030019;
+        public static final int activity_main=0x7f03001a;
+        public static final int fragment_download=0x7f03001b;
+        public static final int fragment_download_file=0x7f03001c;
+        public static final int fragment_download_new_file=0x7f03001d;
+        public static final int fragment_main=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
     }
     public static final class menu {
-        public static final int download_file=0x7f0c0000;
-        public static final int main=0x7f0c0001;
+        public static final int download=0x7f0c0000;
+        public static final int download_file=0x7f0c0001;
+        public static final int download_new_file=0x7f0c0002;
+        public static final int main=0x7f0c0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1157,6 +1163,8 @@ containing a value of this type.
         public static final int file_file_to_download_http_coderzheaven_com_sample_folder_sample_file_png=0x7f0a0012;
         public static final int hello_world=0x7f0a000e;
         public static final int title_activity_download_file=0x7f0a0014;
+        public static final int title_activity_download_new_file=0x7f0a0017;
+        public static final int title_activity_download_service=0x7f0a0016;
     }
     public static final class style {
         /** 

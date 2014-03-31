@@ -10,5 +10,7 @@
     <string name="download">Download</string>
     <string name="title_activity_download_file">DownloadFile</string>
     <string name="downloading_file">Downloading file</string>
+    <string name="title_activity_download_service">DownloadService</string>
+    <string name="title_activity_download_new_file">DownloadNewFile</string>
 
 </resources>
